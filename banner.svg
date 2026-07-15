@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="igBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#13111a"/>
+      <stop offset="100%" style="stop-color:#1a1520"/>
+    </linearGradient>
+    <linearGradient id="igGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#833AB4"/>
+      <stop offset="40%" style="stop-color:#FD1D1D"/>
+      <stop offset="100%" style="stop-color:#F77737"/>
+    </linearGradient>
+    <linearGradient id="igGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#833AB4"/>
+      <stop offset="100%" style="stop-color:#FD1D1D"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="300" fill="url(#igBg)"/>
+  <rect x="0" y="0" width="900" height="3" fill="url(#igGrad)"/>
+  <rect x="0" y="297" width="900" height="3" fill="url(#igGrad)"/>
+  <!-- Instagram camera icon stylized -->
+  <rect x="80" y="100" rx="22" ry="22" width="100" height="100" fill="none" stroke="url(#igGrad)" stroke-width="3"/>
+  <circle cx="130" cy="150" r="25" fill="none" stroke="url(#igGrad)" stroke-width="2.5"/>
+  <circle cx="130" cy="150" r="10" fill="url(#igGrad)" opacity="0.4"/>
+  <circle cx="160" cy="115" r="6" fill="#F77737"/>
+  <!-- Report/flag icon -->
+  <path d="M220 120 L220 200" stroke="#FD1D1D" stroke-width="2.5"/>
+  <path d="M220 120 L250 130 L220 145" fill="#FD1D1D" opacity="0.7"/>
+  <!-- Multiple report arrows -->
+  <path d="M240 160 L265 160" stroke="#833AB4" stroke-width="1.5" opacity="0.5"/>
+  <path d="M240 175 L270 175" stroke="#FD1D1D" stroke-width="1.5" opacity="0.4"/>
+  <path d="M240 190 L260 190" stroke="#F77737" stroke-width="1.5" opacity="0.3"/>
+  <!-- Title -->
+  <text x="320" y="125" font-family="Segoe UI, Arial" font-size="44" font-weight="bold" fill="#FFFFFF">Instagram</text>
+  <text x="320" y="175" font-family="Segoe UI, Arial" font-size="44" font-weight="bold" fill="url(#igGrad2)">Report Bot</text>
+  <!-- Feature pills -->
+  <rect x="320" y="195" rx="12" ry="12" width="130" height="26" fill="#833AB4" opacity="0.2"/>
+  <text x="385" y="213" font-family="Segoe UI" font-size="12" fill="#833AB4" text-anchor="middle">Multi-Session</text>
+  <rect x="460" y="195" rx="12" ry="12" width="130" height="26" fill="#FD1D1D" opacity="0.2"/>
+  <text x="525" y="213" font-family="Segoe UI" font-size="12" fill="#FD1D1D" text-anchor="middle">Proxy Rotate</text>
+  <rect x="600" y="195" rx="12" ry="12" width="140" height="26" fill="#F77737" opacity="0.2"/>
+  <text x="670" y="213" font-family="Segoe UI" font-size="12" fill="#F77737" text-anchor="middle">CAPTCHA Solve</text>
+  <!-- Version -->
+  <rect x="750" y="25" rx="10" ry="10" width="125" height="28" fill="url(#igGrad2)" opacity="0.3"/>
+  <text x="812" y="44" font-family="Segoe UI" font-size="13" fill="#FFFFFF" text-anchor="middle">v4.2.0 Stable</text>
+  <!-- Decorative gradient circles -->
+  <circle cx="800" cy="230" r="30" fill="none" stroke="url(#igGrad)" stroke-width="1" opacity="0.2"/>
+  <circle cx="820" cy="250" r="15" fill="none" stroke="url(#igGrad)" stroke-width="0.5" opacity="0.3"/>
+</svg>
